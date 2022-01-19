@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Артём Запорожец](https://up.htmlacademy.ru/htmlcss/33/user/1968423).
-* Наставник: `Неизвестно`.
+- Студент: [Артём Запорожец](https://up.htmlacademy.ru/htmlcss/33/user/1968423).
+- Наставник: [Анастасия Красавина](https://htmlacademy.ru/profile/id186775).
 
 ---
 
