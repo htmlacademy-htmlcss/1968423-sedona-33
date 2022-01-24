@@ -69,15 +69,20 @@
     <img class="main-poster-text-canyon" src="#" alt="большой каньон">
     <img class="main-poster-pattern" src="#" alt="белый геометрический узор">
     <br>
-    <h1 class="main-poster-title">
-      Седона — небольшой городок в Аризоне,
-      заслуживающий большего!</h1>
-
-      <p class="main-poster-benefits">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p> <!--Используется именно benefits, т.к. advantages буду использовать в др. блоке-->
   </div>
 
-  <section class="advantages">
+    <section class="advantages">
 
+      <div class="additional">
+    <h1 class="additional-title">
+      Седона — небольшой городок в Аризоне,
+      заслуживающий большего!
+    </h1>
+    <p class="additional-benefits">
+      Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!
+    </p> 
+      </div>
+  
     <div class="advantages-information">
 
       <div class="advantages-information-provinces">
@@ -94,7 +99,7 @@
         </p>
       </div>
       
-      <div class="advantages-information-provinces-landscape">
+      <div class="advantages-information-provinces-landscape">       <!--для обертки изображения выбирал между div и figure-->
         <img src="#" alt="городской пейзаж">
       </div>
 
@@ -142,14 +147,14 @@
 
     <div class="advantages-bridge">
 
-      <div class="advantages-canyon-bridge">
+      <div class="advantages-canyon-bridge">    <!--для обертки изображения выбирал между div и figure-->
         <img src="#" alt="мост дьявола">
       </div>
 
       <div class="advantages-canyon-bridge-information">
         <h2>
-          Там есть<br>
-          мост дьявола
+          ТАМ ЕСТЬ<br>
+          МОСТ ДЬЯВОЛА
         </h2>
         <p class="number-two">
           — №2 —
@@ -160,43 +165,82 @@
           разумеется
         </p>
       </div>
-
+      
     </div>
 
+    <div class="advantages-tourist-information">
+      <div class="advantages-tourist-information-area">
+        <h2>
+          НЕБОЛЬШАЯ ПЛОЩАДЬ
+        </h2>
+        <p class="number-three">
+          — №3 —
+        </p>
 
+        <p class="tourist-information-attractions">
+          Все достопримечательности<br>
+          находятся очень близко
+        </p>
+      </div>
 
+      <div class="tourist-information-road">
+        <h2>
+          КРАСИВАЯ ДОРОГА
+        </h2>
+        <p class="number-four">
+          — №4 —
+        </p>
+        <p class="tourist-information-road-sedona">
+          Ехать в Седону из Лас-Вегаса<br>
+          совсем не скучно!
+        </p>
+      </div>
 
-
-
-
-
-
-
-
-  
-
-
+      <div class="tourist-information-calmly">
+        <h2>
+          МАЛО ТУРИСТОВ
+        </h2>
+        <p class="number-five">
+          — №5 —
+        </p>
+        <p class="tourist-information-calmly-sedona">
+          Большинство едет в Гранд<br>
+          Каньон и толпится там
+        </p>
+      </div>
+    </div>
 
   </section>
 
+  <div class="hotel-search">
+    <h3 class="interested">
+      Заинтересовались?
+    </h3>
+    <p class="travel-dates">
+      Укажите предполагаемые даты поездки,<br>
+      и мы покажем вам лучшие предложения гостиниц в Седоне
+    </p>
+    <a class="button button-hotel-search" href="#"></a>
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <div class="subscription">
+    <h3 class="snewsletter">
+      Подпишитесь на рассылку
+    </h3>
+    <p class="helpful-information">
+      Только полезная информация и никакого спама,<br>
+      честное бойскаутское!
+    </p>
+    <form class="subscription-snewsletter" action="https://echo.htmlacademy.ru/" method="post">
+      <label for="subscription-snewsletter-email">
+        Email
+      </label>
+      <input class="subscription-email" placeholder="Ваш e-mail" type="email" id="subscription-snewsletter-email" required>
+      <input type="submit" value="Подписаться">
+    </form>
+  </div>
 
 </main>
-
-
 
 <footer class="page-footer">
   
