@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/ptsans-400.woff2") format(woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format(woff2);
+    font-display: swap;
+}
+
+body {
+font-family: "PT Sans", sans-serif;
+font-size: 18px;
+line-height: 21px;
+color: #333333;
+background-color: #FFFFFF;
+}
+
+.page-header {
+    color: #333333;
+    background: #FFFFFF;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+    text-decoration: none;
+    }
+
+    .main-index {
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+
+    .main-poster {
+        color: #333333;
+        background-color: #FFFFFF;
+        background-image: url("../images/background/index_background.jpg");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+
+    .additional-title {
+        font-family: "PT Sans", sans-serif;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+        color: #000000;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .additional-benefits {
+        font-family: "PT Sans", sans-serif;
+        font-size: 22px;
+        line-height: 36px;
+        font-weight: 400;
+        color: #000000;
+        text-align: center;
+    }
+
+    .special {
+        background-color: #83B3D31F;
+    }
+
+    .tourist-information-road {
+        background-color: #83B3D333;
+    }
+
+    .advantages h2 {
+        font-family: "PT Sans", sans-serif;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .advantages-information, .advantages-bridge {
+        background-color: #83B3D3;
+        color: #FFFFFF;    
+    }
+
+    h2 .white title {
+        color: #FFFFFF;    
+    }
+
+    .button-hotel-search {
+        font-family: "PT Sans", sans-serif;
+        background-color: #756257;
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 36px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    .button-subscribe {
+        font-family: "PT Sans", sans-serif;
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .footer-contact-adress {
+font-style: normal;
+    }
+
+    .subscription{
+        color: #FFFFFF;
+        background-color: #000000;
+        background-image: url("../images/background/background.jpg");
+        background-size: 100% auto, 100% auto;
+        background-repeat: no-repeat;
+    }
+
+
+
+
