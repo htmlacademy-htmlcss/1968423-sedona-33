@@ -7,10 +7,10 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="page-logo">
-        <img class="logo" src="images/logo.svg" width="139" height="70" alt="Логотип">
-      </div>
       <nav class="navigation">
+        <div class="page-logo">
+          <img class="logo" src="images/logo.svg" width="139" height="70" alt="Логотип">
+        </div>      
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="home.html"> Главная </a>
@@ -21,21 +21,28 @@
           <li class="navigation-item">
             <a class="navigation-link" href="hotels.html"> Гостиницы </a>
           </li>
+        </ul>      
+        <ul class="page-user">     
+          <li class="navigation-item">
+            <a class="page-link-search" href="#">
+              <span class="visually-hidden"> Поиск </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="page-link-likes" href="#">
+              <span class="visually-hidden"> Закладки </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="page-link-basket" href="#">
+              <span class="visually-hidden"> Корзина </span>
+            </a>   
+          </li> 
         </ul>
       </nav>
-      <div class="page-user">
-        <a class="page-link-search" href="#">
-          <span class="visually-hidden"> Поиск </span>
-        </a>
-        <a class="page-link-likes" href="#">
-          <span class="visually-hidden"> Закладки </span>
-        </a>
-        <a class="page-link-basket" href="#">
-          <span class="visually-hidden"> Корзина </span>
-        </a>
-      </div>
     </header>
-    <main class="main-index">
+    <main class="main-container main-index">
+      <div class="page-container">
       <div class="main-poster">
         <!--<img class="main-poster-background" src="images/background/index_background.jpg" width="1200" height="485" alt="фоновое изображение гранд каньон">-->
         <img class="main-poster-text-welcome" src="images/welcome.svg" width="456"  height="350" alt="Добро пожаловать в прекрасную Седону. «Потому что Гранд Каньон отстой!»">
@@ -115,37 +122,40 @@
           <button class="button button-subscribe" type="submit">Подписаться</button>
         </form>
       </div>
+    </div>
     </main>
     <footer class="page-footer">
-      <section class="footer-social">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button social-button" href="https://twitter.com/htmlacademy_ru">
-              <span class="visually-hidden">Твиттер</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button social-button" href="https://www.facebook.com/htmlacademy">
-              <span class="visually-hidden">Фейсбук</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button social-button" href="https://www.youtube.com/c/HTMLAcademyRUS">
-              <span class="visually-hidden">Ютюб</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="footer-contact">
-        <address class="footer-contact-address">
-          <a class="footer-contact-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        </address>
-      </section>
-      <section class="footer-copyright">
-        <p class="footer-copyright-info">
-          <a class="htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">.html academy</a>
-        </p>
-      </section>
+      <div class="page-footer-container">
+        <section class="footer-social">
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="button social-button" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">Твиттер</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button social-button" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">Фейсбук</span>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button social-button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+                <span class="visually-hidden">Ютюб</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-contact">
+          <address class="footer-contact-address">
+            <a class="footer-contact-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </address>
+        </section>
+        <section class="footer-copyright">
+          <p class="footer-copyright-info">
+            <a class="htmlacademy-link" href="https://htmlacademy.ru/" target="_blank">.html academy</a>
+          </p>
+        </section>
+      </div>
     </footer>
   </body>
 </html>
