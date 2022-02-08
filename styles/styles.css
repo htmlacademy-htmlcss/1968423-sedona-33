@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 100%;
+    min-height: 100%;
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     line-height: 21px;
@@ -75,27 +76,28 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+   /*-------*/
 }
-.advantages-information-sity {
+.advantages-information-city {
     display: flex;
     margin: 0;
     padding: 0;
+   /*-------*/
 }
-.advantages-information-sity-housing, .advantages-information-sity-food, .advantages-information-sity-souvenir {
+.information-block {
     width: 400px;
 }
 .advantages-bridge {
     display: flex;
     margin: 0;
     padding: 0;
+   /*-------*/
 }
 .advantages-tourist-information {
     display: flex;
     margin: 0;
     padding: 0;
-}
-.advantages-tourist-information-area, .tourist-information-road, .tourist-information-calmly {
-    width: 400px;
+   /*-------*/
 }
 .main-index {
     background-color: #FFFFFF;
@@ -116,7 +118,7 @@ body {
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
-.breadcrumbs-item a, section .button {
+.breadcrumbs-item a, .footer-social .button {
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -177,7 +179,7 @@ body {
 .special {
     background-color: #83B3D31F;
 }
-.tourist-information-road {
+.block-four {
     background-color: #83B3D333;
 }
 .advantages h2 {
