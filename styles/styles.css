@@ -72,32 +72,13 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
-.advantages-information {
+.advantages-block {
     display: flex;
     margin: 0;
     padding: 0;
-   /*-------*/
-}
-.advantages-information-city {
-    display: flex;
-    margin: 0;
-    padding: 0;
-   /*-------*/
 }
 .information-block {
     width: 400px;
-}
-.advantages-bridge {
-    display: flex;
-    margin: 0;
-    padding: 0;
-   /*-------*/
-}
-.advantages-tourist-information {
-    display: flex;
-    margin: 0;
-    padding: 0;
-   /*-------*/
 }
 .main-index {
     background-color: #FFFFFF;
@@ -113,7 +94,6 @@ body {
 .inner-filter {
     color: #FFFFFF;
     background-color: #68A2CA;
-   /*добавил контрастный фон*/
     background-image: url("../images/background/catalog_background_1.jpg");
     background-size: 100% auto;
     background-repeat: no-repeat;
@@ -234,13 +214,11 @@ body {
 .buttons {
     width: 160px;
     margin-left: 81px;
+    display: flex;
+    flex-direction: column;
 }
 .hotel-cards {
     display: flex;
-}
-.buttons {
-    display: flex;
-    flex-direction: column;
 }
 .button-hotel-search {
     font-family: "PT Sans", sans-serif;
